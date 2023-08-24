@@ -18,7 +18,5 @@ Task is to predict views of TED talk videos => Regression problem
 
 ### 2. Exploratory Data Analysis 
 #### 2.1 Distribution of TEDX videos by weekdays with target variable (views) 
-<p align="center">
-  <img src="C:\Users\nbjam\Downloads\weekdays.png" width="150">
-</p>
+<img src="C:\Users\nbjam\Downloads\weekdays.png" width="128"/>
 
