@@ -20,3 +20,11 @@ Task is to predict views of TED talk videos => Regression problem
 #### 2.1 Distribution of TEDX videos by weekdays with sum of target variable (views) 
 <img src="weekdays.png" width="350"/>
 
+#### 2.1 Distribution of TEDX videos by weekdays with sum of target variable (views) 
+<img src="Month.png" width="350"/>
+
+### 3. Feature Engineering
+#### 3.1 Multiple Speakers in Ted Talk we have converted this feature with speakers_avg_views, Mutiple events converted to event_avg_views etc etc
+#### 3.2 Year feature has been converted to Age of video with (2023-(Year when video was published)) to understand how much older the video is
+
+
