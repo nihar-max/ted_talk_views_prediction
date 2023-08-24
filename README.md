@@ -35,7 +35,7 @@ Task is to predict views of TED talk videos => Regression problem
 
 #### 4.2 Correlation 
 <img src="correlation.png" width="550"/>
-onservation: comments_end_distribution is 77% co-rrelated with comments_NaN DROP Comments_NAN
+Observation: comments_end_distribution is 77% co-rrelated with comments_NaN DROP Comments_NAN
 
 ### 5. Comparison of R2_Scores on diffrent Machine learning Models used.
 #### 1. Linear Regression
