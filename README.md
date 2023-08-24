@@ -24,7 +24,26 @@ Task is to predict views of TED talk videos => Regression problem
 <img src="Month.png" width="350"/>
 
 ### 3. Feature Engineering
-#### 3.1 Multiple Speakers in Ted Talk we have converted this feature with speakers_avg_views, Mutiple events converted to event_avg_views etc etc
-#### 3.2 Year feature has been converted to Age of video with (2023-(Year when video was published)) to understand how much older the video is
+-  Multiple Speakers in Ted Talk we have converted this feature with speakers_avg_views, Mutiple events converted to event_avg_views etc etc
+-  Year feature has been converted to Age of video with (2023-(Year when video was published)) to understand how much older the video is.
+-  Used One hot encoding on Orignal langauge in which Ted Talk was released to compare Videos langauge wise.
+
+### 4. Feature Selection
+
+#### 4.1 f_regression to get feature importance, Dropping features with higher P-value
+<img src="feature_imp.png" width="450"/>
+
+#### 4.2 Correlation 
+<img src="correlation.png" width="450"/>
+
+### 5. Comparison of R2_Scores on diffrent Machine learning Models used.
+#### 1. Linear Regression
+#### 2. Ridge Regressor 
+#### 3. Lasso Regressor 
+#### 4.  Random Forest Regressor  
+#### 5. XGB Regressor 
+<img src="scores.png" width="400"/>
+
+After comparing all the models w.r.t.o their R2 scores even simple models like linear & Ridge can perform better than ensemble models like Random Forest and XGB with this type of use cases.
 
 
