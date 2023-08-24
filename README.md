@@ -31,10 +31,10 @@ Task is to predict views of TED talk videos => Regression problem
 ### 4. Feature Selection
 
 #### 4.1 f_regression to get feature importance, Dropping features with higher P-value
-<img src="feature_imp.png" width="450"/>
+<img src="feature_imp.png" width="550"/>
 
 #### 4.2 Correlation 
-<img src="correlation.png" width="450"/>
+<img src="correlation.png" width="550"/>
 
 ### 5. Comparison of R2_Scores on diffrent Machine learning Models used.
 #### 1. Linear Regression
