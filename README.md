@@ -15,3 +15,8 @@ Task is to predict views of TED talk videos => Regression problem
 ### 1.3 Performance Metric
 1. MAE,MSE,RMSE
 2. R2_Score
+
+### 2. Exploratory Data Analysis 
+#### 2.1 Distribution of TED events with target variable (views) 
+![event_ted](https://github.com/nihar-max/ted_talk_views_prediction/assets/61958476/ee447333-3a85-4f2c-a7f2-b224d4906fec)
+
